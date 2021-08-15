@@ -1,0 +1,29 @@
+body {
+    grid-template-columns:1.5fr;
+    grid-template-rows: 1fr  1fr 1.5fr 5fr;
+    grid-template-areas: "question"
+                        "suggestion"
+                          "output_container"
+                          "redBtn";
+  
+}
+
+#question{
+    grid-area: question;}
+
+
+#suggestion{
+    grid-area: suggestion
+}
+
+#output_container{
+    grid-area:output_container;
+    border:2px black solid;
+    display: inline;
+    margin: auto;
+}
+
+
+
+
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf‐8">
+  <title>P.Scanner</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="display.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <h2 id="question">Here is your text</h2>
+  <h3 id="suggestion">If not, you can rescan:</h3>
+
+ 
+  <h3 type="text" id="output_container" contenteditable>
+   </h3>
+
+
+
+  <button id="doneBtn"  class="purpleBtn" type="button"><a href="scanner.html">Rescan</a></button>
+  <!--button id="saveBtn"  type="button">></button-->
+</body>
+
+<script src='https://unpkg.com/tesseract.js@v2.1.0/dist/tesseract.min.js'></script>
+
+<script type="text/javascript" src="webcam.js"></script>
+<script src="scanner.js"></script>
+
+</html>

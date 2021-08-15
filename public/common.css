@@ -1,0 +1,53 @@
+
+body {
+    background-color: #87d2f5;
+    display: grid;
+    margin: auto;
+  }
+  
+  
+  h1, h2, h3, button {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    grid-area: h1;
+    font-size: 4.5em;
+    font-weight: 800;
+  }
+  
+  h2 {
+    grid-area: h2;
+    font-size: 2em;
+    font-weight: 400;
+  }
+  
+  h3{
+    grid-area: h3;
+    font-size: 1.5em;
+    font-weight: 200;
+  }
+  
+  button {
+    width: 13rem;
+    height: 4.5rem;
+    margin: auto;
+ 
+    border-radius: 3rem;
+    border: none;
+    font-size: 1.5rem;
+  }
+
+  .purpleBtn{
+    background-color: blueviolet;
+  }
+
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+
+  

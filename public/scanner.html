@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf‐8">
+  <title>P.Scanner</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="scanner.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body></body>
+  <h1>Scan here. To begin take a picture, and then press Scan.</h1>
+  <button class="greenBtn" id="captureBtn" type="button">
+    <img id="icon" src="cameraIcon.png"></img>
+  </button>
+  <button id="scanBtn" class="purpleBtn" type="button"><a href="display.html">Scan →</a></button>
+
+  <video id="webcam" autoplay playsinline width="640" height="480" ></video>
+  <canvas id="canvas" class="d-none"></canvas>
+  <audio id="snapSound" src="snap.wav" preload="auto"></audio>
+  <a id="download-photo"></a>
+</body>
+<script src='https://unpkg.com/tesseract.js@v2.1.0/dist/tesseract.min.js'></script>
+<script type="text/javascript" src="webcam.js"></script>
+<script src="scanner.js"></script>
+
+</html>

@@ -1,0 +1,22 @@
+body {
+    margin-left: 12em;
+    margin-right: 12em;
+    grid-template-columns: 1.5fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-areas: "h1"
+                          "h2"
+                          "h3"
+                          "redBtn";            
+                        
+  }
+
+  h2{
+      vertical-align: bottom;
+  }
+
+  .redBtn{
+      vertical-align: top;
+      
+  }
+  
+  
