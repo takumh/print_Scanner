@@ -1,6 +1,6 @@
 
 const express = require('express')
-const serversideOCR = require('./server/serverside_ocr')
+const serversideOCR = require('./server/server_ocr')
 const fetch = require('node-fetch');
 
 const app = express()
